@@ -1,0 +1,95 @@
+<div> 
+   
+    <form class="mat-elevation-z8"> 
+            <h3>New Blog</h3>
+        <div class="form-fields"> 
+            <mat-form-field appearance="fill">
+                <mat-label>Title</mat-label><input matInput>
+            </mat-form-field>
+            <mat-form-field class="body-class">
+                <mat-label>Body</mat-label>
+                <textarea matInput
+                        cdkTextareaAutosize
+                        #autosize="cdkTextareaAutosize"
+                        cdkAutosizeMinRows="1"
+                        cdkAutosizeMaxRows="100"></textarea>
+                <textarea matInput></textarea>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                    <mat-label>Author:</mat-label><input matInput>
+                </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Created On:</mat-label>
+                <input matInput [matDatepicker]="picker">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Updated On:</mat-label>
+                <input matInput [matDatepicker]="picker">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+        </div>
+        <div class="form-buttons"> 
+            <button mat-raised-button type="submit" color="blue" style="margin-top: 10px;">Post a blog</button>
+        </div>
+    
+    </form>
+</div>
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<!-- <form class="example-form">
+      
+    <table class="example-full-width" cellspacing="0"><tr>
+      <td><mat-form-field class="example-full-width">
+        <mat-label>title</mat-label>
+        <input matInput>
+      </mat-form-field></td>
+    </tr></table>
+  
+    <p>
+      <mat-form-field class="example-full-width">
+        <mat-label>Body</mat-label>
+        <textarea matInput placeholder="story">Content of the blog</textarea>
+      </mat-form-field>
+    </p>
+    <table class="example-full-width" cellspacing="0"><tr>
+        <td><mat-form-field class="example-full-width"> 
+        </mat-form-field></td>
+        <td><mat-form-field class="example-full-width">
+          <mat-label>Owner</mat-label>
+          <input matInput placeholder="California">
+        </mat-form-field></td>
+      </table>
+</form> -->
+
+
+
+
+  <!-- <mat-form-field appearance="fill">
+    <mat-label>Choose a date</mat-label>
+    <input matInput [matDatepicker]="picker">
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+     -->
+
+

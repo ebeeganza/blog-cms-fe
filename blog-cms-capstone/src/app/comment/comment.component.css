@@ -1,0 +1,40 @@
+/* Chat containers */
+/* .container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  } */
+  
+  /* Darker chat container
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  Clear floats
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+  
+  
+  /* Style time text */
+  .date-right {
+    float: right;
+    color: #aaa;
+  }
+
+
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
